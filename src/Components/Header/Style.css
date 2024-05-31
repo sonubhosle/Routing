@@ -1,0 +1,25 @@
+header{
+    width: 100%;
+    height:  60PX;
+    background-color: #ffff;
+    padding:  0px 4%;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+    box-shadow: rgba(0,0,0,0.090) 0px 10px 15px 0px;
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+
+}
+
+header .menus {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.menus a{
+    text-decoration: none;
+    color: blue;
+}
